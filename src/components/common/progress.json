@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_progresses",
+  "info": {
+    "displayName": "progress",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}
