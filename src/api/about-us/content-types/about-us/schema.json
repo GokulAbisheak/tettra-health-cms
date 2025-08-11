@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "why_choose_us": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": true
+    },
+    "vision": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": false
+    },
+    "mission": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": false
+    },
+    "core_values": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": true
+    },
+    "compliances": {
+      "type": "component",
+      "component": "common.card",
+      "repeatable": true
+    }
+  }
+}
