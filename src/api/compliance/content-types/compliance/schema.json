@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compliances",
+  "info": {
+    "singularName": "compliance",
+    "pluralName": "compliances",
+    "displayName": "Compliance"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
