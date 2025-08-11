@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contact_contact_cards",
+  "info": {
+    "displayName": "contact card",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "available_time": {
+      "type": "text"
+    },
+    "map_url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
